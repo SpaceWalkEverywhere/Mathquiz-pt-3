@@ -8,5 +8,7 @@ function send() {
     row=qno+ansbox+checkbutt;
     document.getElementById("output").innerHTML=row;
     document.getElementById("number1").value="";
-    document.getElementById("number2").value="";    
+    document.getElementById("number2").value="";   
+    document.getElementById("number1").style.display="none";
+    document.getElementById("number2").style.display="none";
 }
